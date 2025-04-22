@@ -1,4 +1,4 @@
-import paths from 'routes/paths';
+// import paths from 'routes/paths';
 
 export interface SubMenuItem {
   name: string;
@@ -27,48 +27,26 @@ const sitemap: MenuItem[] = [
     icon: 'ri:dashboard-fill',
     active: true,
   },
-  {
-    id: 'activity',
-    subheader: 'Activity',
-    path: '#!',
-    icon: 'ic:baseline-show-chart',
-  },
-  {
-    id: 'library',
-    subheader: 'Library',
-    path: '#!',
-    icon: 'material-symbols:local-library-outline',
-  },
-  {
-    id: 'authentication',
-    subheader: 'Authentication',
-    icon: 'ic:round-security',
-    active: true,
-    items: [
-      {
-        name: 'Sign In',
-        pathName: 'signin',
-        path: paths.signin,
-      },
-      {
-        name: 'Sign Up',
-        pathName: 'signup',
-        path: paths.signup,
-      },
-    ],
-  },
-  {
-    id: 'schedules',
-    subheader: 'Schedules',
-    path: '#!',
-    icon: 'ic:outline-calendar-today',
-  },
-  {
-    id: 'payouts',
-    subheader: 'Payouts',
-    path: '#!',
-    icon: 'material-symbols:account-balance-wallet-outline',
-  },
+
+  // {
+  //   id: 'authentication',
+  //   subheader: 'Authentication',
+  //   icon: 'ic:round-security',
+  //   active: true,
+  //   items: [
+  //     {
+  //       name: 'Sign In',
+  //       pathName: 'signin',
+  //       path: paths.signin,
+  //     },
+  //     {
+  //       name: 'Sign Up',
+  //       pathName: 'signup',
+  //       path: paths.signup,
+  //     },
+  //   ],
+  // },
+
   {
     id: 'settings',
     subheader: 'Settings',
