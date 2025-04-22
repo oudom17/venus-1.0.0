@@ -7,10 +7,10 @@ export const rootPaths = {
 
 export default {
   dashboard: `/${rootPaths.pageRoot}/dashboard`,
-  activity: `/${rootPaths.pageRoot}/activity`,
-  library: `/${rootPaths.pageRoot}/library`,
-  schedules: `/${rootPaths.pageRoot}/schedules`,
-  payouts: `/${rootPaths.pageRoot}/payouts`,
+  products: `/${rootPaths.pageRoot}/products`, // /pages/products
+  categories: `/${rootPaths.pageRoot}/categories`, // /pages/categories
+  siteSettings: `/${rootPaths.pageRoot}/site-settings`, // /pages/site-settings
+  contact: `/${rootPaths.pageRoot}/contact`, // /pages/contact
   settings: `/${rootPaths.pageRoot}/settings`,
 
   signin: `/${rootPaths.authRoot}/signin`,

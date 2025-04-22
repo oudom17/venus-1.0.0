@@ -27,7 +27,31 @@ const sitemap: MenuItem[] = [
     icon: 'ri:dashboard-fill',
     active: true,
   },
+  {
+    id: 'Products',
+    subheader: 'Products',
+    path: '#!',
+    icon: 'ic:outline-store',
+  },
+  {
+    id: 'Categories',
+    subheader: 'Categories',
+    path: '#!',
+    icon: 'ic:outline-list',
+  },
+  {
+    id: 'Site Setting',
+    subheader: 'Site Setting',
+    path: '#!',
+    icon: 'ic:outline-tune',
+  },
 
+  {
+    id: 'Contact',
+    subheader: 'Contact',
+    path: '#!',
+    icon: 'ic:outline-contacts',
+  },
   // {
   //   id: 'authentication',
   //   subheader: 'Authentication',
